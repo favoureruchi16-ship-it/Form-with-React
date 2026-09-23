@@ -1,0 +1,325 @@
+/* login css */
+.login{
+    border: none;
+    height: 430px;  
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:  grey;
+    margin-top: 10px;
+}
+
+input{
+    height: 35px;
+    width: 100%;
+    
+}
+
+label{
+    display: block;                                    
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.check{
+    display: flex;
+}
+.check h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 7px;
+    color: black;
+   
+}
+.check h4{
+    
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 650px;
+    margin-bottom: 5px;
+    
+}
+.check input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    margin-top: 8px;
+    border-radius: 4px;
+    appearance: none;
+    cursor: pointer;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 50px;
+}
+.up h4{
+    font-size: 15px;
+    color: red;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    
+}
+
+button{
+    background-color: #515DEF;
+    color: white;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* Register css */
+
+.register{
+    border: none;
+    height: 950px;  
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+ h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: grey;
+    margin-top: 15px;
+}
+input{
+    height: 35px;
+    width: 100%;
+   
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: #313131;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.pass{
+    display: flex;
+    align-items: center;
+}
+.pass h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.pass h4{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+.pass h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 13px;
+    padding-right: 5px;
+}
+.pass h2{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 15px;
+}
+.pass input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 4px;
+    appearance: none;
+    cursor: pointer;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.up h4{
+    font-size: 15px;
+    color: red;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* forgot password css */
+.forget-password{
+    border: none;
+    height: 300px;  
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+.forget{
+    height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+  
+}
+ label{
+    display: block;
+    font-size: 14px;
+    color: #313131;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+button{
+    background-color: #515DEF;
+    color: white;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+   
+}
+
+/* reset password css */
+.reset-password{
+    border: none;
+    height: 380px;  
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+ input{
+    height: 35px;
+    width: 100%;
+   
+}
+ label{
+    display: block;
+    font-size: 14px;
+    color: #313131;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: #515DEF;
+    color: white;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* otp css */
+.otp{
+    border: none;
+    height: 350px;  
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.input-container input{
+    height: 35px;
+    width: 100%;
+}
+
+ label{
+    display: block;
+    font-size: 14px;
+    color: #313131;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.up{
+    display: flex;
+    align-items: center;
+}
+.up h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.up h4{
+    font-size: 15px;
+    color: red;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+ button{
+    background-color: #515DEF;
+    color: white;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  
+}
+.error{
+    color: red;
+    font-size: 10px;
+    margin: 5px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input.error {
+    border: 1px solid red;
+}
